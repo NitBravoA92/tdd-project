@@ -12,4 +12,14 @@ class Solver
 
     word.reverse # reverse the word
   end
+
+  def fizzbuzz(number)
+    return 'fizzbuzz' if (number % 15).zero? # numbers divisible by 3 and 5
+
+    return 'fizz' if (number % 3).zero? # numbers divisible by 3
+
+    return 'buzz' if (number % 5).zero? # numbers divisible by 5
+
+    number.to_s # numbers not divisible by 3 or 5
+  end
 end
