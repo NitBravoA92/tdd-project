@@ -33,4 +33,19 @@ describe Solver do
       expect(result).to eq(expected_output)
     end
   end
+  context 'reverse method' do
+    it "should return the reverse of the string: 'hello'" do
+      input = 'hello'
+      expected_output = 'olleh'
+      result = @solver.reverse(input)
+      expect(result).to eq(expected_output)
+    end
+
+    it "should return the reverse of the string: 'developer'" do
+      input = 'developer'
+      expected_output = 'repoleved'
+      result = @solver.reverse(input)
+      expect(result).to eq(expected_output)
+    end
+  end
 end
