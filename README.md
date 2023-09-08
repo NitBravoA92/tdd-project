@@ -34,7 +34,7 @@
 **"TDD Project"** is a program build in ruby that implements three methods of the Solver class using the Test-Driven Development (TDD) approach.The three methods are:
 
 - `factorial(number)`: This method returns the factorial of the given number.
-- reverse(word): This method returns the reverse of the given word.
+- `reverse(word)`: This method returns the reverse of the given word.
 - `fizzbuzz(number)`: This method returns "fizz" if the given number is divisible by 3, "buzz" if the given number is divisible by 5, and "fizzbuzz" if the given number is divisible by both 3 and 5. If the given number is not divisible by 3 or 5, the method returns the given number as a string.
 
 The main goal of this project is learning more about the testing in ruby using RSpec and explore the benefits of using the TDD approach in software development.
