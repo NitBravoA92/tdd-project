@@ -6,4 +6,10 @@ class Solver
 
     number * factorial(number - 1) # recursive call
   end
+
+  def reverse(word)
+    return word if word.length <= 1 # words with 1 or less characters
+
+    word.reverse # reverse the word
+  end
 end
